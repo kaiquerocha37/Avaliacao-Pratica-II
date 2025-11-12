@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS aluno;
+CREATE TABLE aluno (
+        id INTEGER PRIMARY KEY AUTOINCREMENTE,
+        nome TEXT NOT NULL<
+        idade INTEGER NOT NULL,
+        curso TEXT NOT NULL,
+);
